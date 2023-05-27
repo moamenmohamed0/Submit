@@ -1,0 +1,312 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  background: none;
+  width: 60%;
+  margin: 5% auto;
+}
+
+.box {
+  position: relative;
+  left: 10px;
+  width: 85%;
+  height: 620px;
+  padding: 5% 5% 5% 5%;
+  margin: 18px;
+  border-radius: 10px;
+  background: white;
+}
+
+.head {
+  position: absolute;
+  margin: auto;
+  top: 10px;
+  width: 95%;
+  left: 15px;
+  height: 300px;
+  padding: 10px 10px 10px 10px;
+  margin: auto;
+}
+
+.center {
+  position: absolute;
+  top: 290px;
+  width: 95%;
+  left: 15px;
+  height: 150px;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  text-align: center;
+  background: none;
+}
+
+.btn {
+  position: absolute;
+  top: 650px;
+  width: 95%;
+  left: 15px;
+  height: 100px;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  background: none;
+}
+
+.head-l {
+  position: absolute;
+  float: left;
+  width: 48%;
+  height: 95%;
+  background: none;
+}
+
+.head-R {
+  position: absolute;
+  float: right;
+  left: 51%;
+  width: 48%;
+  height: 95%;
+  background: none;
+}
+
+.head-l .sec0 {
+  background-color: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 40px;
+}
+
+.head-l .sec1 {
+  background-color: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 40px;
+}
+
+.head-l .sec2 {
+  background-color: none;
+  margin-bottom: 20px;
+  height: 40px;
+}
+
+.head-l .sec3 {
+  background-color: none;
+  margin-bottom: 20px;
+  height: 40px;
+}
+
+.head-l .sec4 {
+  background-color: none;
+  margin-bottom: 20px;
+  height: 40px;
+}
+
+.head-l .secv {
+  background-color: none;
+  margin-bottom: 20px;
+  height: 40px;
+}
+
+.head-l input {
+  position: relative;
+  width: 85%;
+  height: 80%;
+  top: 20px;
+  border: none;
+  border-bottom: 1px solid #ea723d;
+
+}
+
+.head-l label {
+  position: absolute;
+  left: 1px;
+}
+
+.head-l .sec4 label {
+  width: 100%;
+}
+
+.head-l .sec4 i {
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  font-size: 20px;
+}
+
+.head-l .secv i {
+  width: 100%;
+  position: absolute;
+  left: 1px;
+  font-size: 20px;
+}
+
+.head-R .sec1 {
+  position: relative;
+  background-color: none;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  height: 40px;
+  border-bottom: 1px solid #ea723d;
+}
+
+.head-R .sec2 {
+  position: relative;
+  background-color: none;
+  margin-bottom: 50px;
+  height: 40px;
+  border-bottom: 1px solid #ea723d;
+}
+
+.head-R .sec3 {
+  position: relative;
+  background-color: none;
+  margin-bottom: 10px;
+  height: 40px;
+  border-bottom: 1px solid #ea723d;
+}
+
+.head-R .sec1 label {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+
+.head-R .sec2 label {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+
+.head-R .sec3 label {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+
+.head-R .sec1 select {
+  position: absolute;
+  top: 10px;
+  left: 320px;
+  width: 150px;
+  height: 25px;
+}
+
+.head-R .sec2 select {
+  position: absolute;
+  top: 10px;
+  left: 320px;
+  width: 150px;
+  height: 25px;
+}
+
+.head-R .sec3 select {
+  position: absolute;
+  top: 10px;
+  left: 320px;
+  width: 150px;
+  height: 25px;
+}
+
+.center div {
+  text-align: center;
+  margin-top: 45px;
+  margin-left: 45px;
+}
+
+.center span {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.center i {
+  font-size: 25px;
+}
+
+.center input {
+  height: 18px;
+  width: 150px;
+}
+
+.btn button {
+  text-align: center;
+  margin-left: 320px;
+  width: 350px;
+  height: 60px;
+  font-size: 25px;
+  border: 1px solid;
+  border-radius: 5px;
+  background: #1ea69a;
+  color: #e9f4e9;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn button:hover {
+  border-color: #349c68;
+  cursor: pointer
+}
+
+.des {
+  position: relative;
+  margin-top: 400px;
+  height: 140px;
+}
+
+.des textarea {
+  position: absolute;
+  left: 13%;
+  height: 150px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.des textarea:focus {
+  border: 1px solid black;
+  outline: 0;
+}
